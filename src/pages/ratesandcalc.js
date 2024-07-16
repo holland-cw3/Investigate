@@ -276,7 +276,6 @@ function Calc() {
                     <td> {item.APY != null ? item.APY.toString() : "Null"}</td>
                     <td>
                       <a
-                        target="_blank"
                         href={item.Url != null ? item.Url.toString() : "Null"}
                         className="underline text-blue-200"
                       >

@@ -2,13 +2,10 @@ import React from "react";
 
 import "./App.css";
 import Header from "./components/Header";
-import Emails from "./pages/email";
 import Extension from "./pages/extension";
-import Home from "./pages/home";
 import Rates from "./pages/ratesandcalc";
 import RatesExtension from "./pages/ratesExtension";
-import About from "./pages/about";
-import Contact from "./pages/contact";
+
 
 
 
@@ -20,10 +17,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/emails" element={<Emails />} />
+        <Route path="/" element={<Rates />} />
         <Route path="/extension" element={<Extension />} />
         <Route path="/ratesandcalc" element={<Rates />} />
         <Route path="/ratesExtension" element={<RatesExtension />} />
